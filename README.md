@@ -10,7 +10,7 @@ It's small on purpose — one Python file, two dependencies (`requests` and
 `Pillow`), no database. State lives in Readeck's own labels, so you can restart it whenever
 and nothing gets lost.
 
-<img width="1904" height="2560" alt="photo_2026-06-21_12-57-15" src="https://github.com/user-attachments/assets/b9f6a5b3-9e38-4031-9fa3-8c6e9aa8b42d" />
+<img width="1083" height="1452" alt="kindle" src="https://github.com/user-attachments/assets/c156eea7-8b1f-4779-939c-f0e0752b4153" />
 
 ## Quick start
 
