@@ -10,10 +10,12 @@ It's small on purpose — one Python file, two dependencies (`requests` and
 `Pillow`), no database. State lives in Readeck's own labels, so you can restart it whenever
 and nothing gets lost.
 
+<img width="1904" height="2560" alt="photo_2026-06-21_12-57-15" src="https://github.com/user-attachments/assets/b9f6a5b3-9e38-4031-9fa3-8c6e9aa8b42d" />
+
 ## Quick start
 
 ```sh
-git clone <your-repo-url> readeck-paperboy
+git clone https://github.com/vsgusev/readeck-paperboy
 cd readeck-paperboy
 cp .env.example .env
 docker compose up -d
