@@ -1,0 +1,10 @@
+services:
+  readeck-paperboy:
+    build: .
+    container_name: readeck-paperboy
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      # Host port 8090 → container port 8080 (healthcheck).
+      # Change the host side (left of the colon) if 8090 is already taken.
+      - "8090:8080"
